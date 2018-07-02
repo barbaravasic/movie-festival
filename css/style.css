@@ -1,0 +1,106 @@
+cf::before,
+cf::after{
+    content: "";
+    display: table;
+}
+
+cf::after{
+    clear: both;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    height: 80px;
+    line-height: 80px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 249, 158);
+    font-style: italic;
+
+}
+
+form{
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px 50px;
+    background-color: white;
+}
+form fieldset {
+    margin-top: 20px;
+    border-color: #21ABAB;
+    padding: 20px;
+    
+}
+
+form legend {
+    border: 1px solid #0c8686;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    padding-bottom: 10px;
+    color: rgb(99, 99, 99);
+}
+form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    border-style: none;
+    border-bottom: 1px solid gray;
+}
+form select {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+}
+#button-movie,
+#button-program,
+#add-movie-button{
+    height: 45px;
+    background-color:#0c8686;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#movie-list {
+float: left;
+}
+
+#total-length{
+    float: right;
+}
+.validation {
+    color:red;
+}
+
+.hide {
+    display: none;
+}
+
+.options {
+    margin-top: 25px;
+}
